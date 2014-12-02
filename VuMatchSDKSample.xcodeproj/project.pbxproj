@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49472D761A2586EA00B1C276 /* autoscaling-2011-01-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D5A1A2586EA00B1C276 /* autoscaling-2011-01-01.json */; };
+		49472D771A2586EA00B1C276 /* AWSiOSSDKv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D5B1A2586EA00B1C276 /* AWSiOSSDKv2.framework */; };
+		49472D781A2586EA00B1C276 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D5C1A2586EA00B1C276 /* Bolts.framework */; };
+		49472D791A2586EA00B1C276 /* cib-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D5D1A2586EA00B1C276 /* cib-2014-06-30.json */; };
+		49472D7A1A2586EA00B1C276 /* css-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D5E1A2586EA00B1C276 /* css-2014-06-30.json */; };
+		49472D7B1A2586EA00B1C276 /* dynamodb-2012-08-10.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D5F1A2586EA00B1C276 /* dynamodb-2012-08-10.json */; };
+		49472D7C1A2586EA00B1C276 /* ec2-2014-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D601A2586EA00B1C276 /* ec2-2014-06-15.json */; };
+		49472D7D1A2586EA00B1C276 /* elasticloadbalancing-2012-06-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D611A2586EA00B1C276 /* elasticloadbalancing-2012-06-01.json */; };
+		49472D7E1A2586EA00B1C276 /* email-2010-12-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D621A2586EA00B1C276 /* email-2010-12-01.json */; };
+		49472D7F1A2586EA00B1C276 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D631A2586EA00B1C276 /* GZIP.framework */; };
+		49472D801A2586EA00B1C276 /* kinesis-2013-12-02.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D641A2586EA00B1C276 /* kinesis-2013-12-02.json */; };
+		49472D811A2586EA00B1C276 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D651A2586EA00B1C276 /* Mantle.framework */; };
+		49472D821A2586EA00B1C276 /* mobileanalytics-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D661A2586EA00B1C276 /* mobileanalytics-2014-06-30.json */; };
+		49472D831A2586EA00B1C276 /* monitoring-2010-08-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D671A2586EA00B1C276 /* monitoring-2010-08-01.json */; };
+		49472D841A2586EA00B1C276 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D681A2586EA00B1C276 /* Reachability.framework */; };
+		49472D851A2586EA00B1C276 /* s3-2006-03-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D691A2586EA00B1C276 /* s3-2006-03-01.json */; };
+		49472D861A2586EA00B1C276 /* sdb-2009-04-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D6A1A2586EA00B1C276 /* sdb-2009-04-15.json */; };
+		49472D871A2586EA00B1C276 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D6B1A2586EA00B1C276 /* sns-2010-03-31.json */; };
+		49472D881A2586EA00B1C276 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D6C1A2586EA00B1C276 /* sqs-2012-11-05.json */; };
+		49472D891A2586EA00B1C276 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 49472D6D1A2586EA00B1C276 /* sts-2011-06-15.json */; };
+		49472D8A1A2586EA00B1C276 /* TMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D6E1A2586EA00B1C276 /* TMCache.framework */; };
+		49472D8B1A2586EA00B1C276 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D6F1A2586EA00B1C276 /* UICKeyChainStore.framework */; };
+		49472D8C1A2586EA00B1C276 /* XMLDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49472D701A2586EA00B1C276 /* XMLDictionary.framework */; };
+		49472D8D1A2586EA00B1C276 /* VuMatchAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49472D721A2586EA00B1C276 /* VuMatchAPIClient.m */; };
+		49472D8E1A2586EA00B1C276 /* VuMatchRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49472D741A2586EA00B1C276 /* VuMatchRecommendation.m */; };
+		499FDAE71A239DCC008F3AA9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 499FDAE61A239DCC008F3AA9 /* libz.dylib */; };
+		49A388AD1A1A870300D08CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A388AC1A1A870300D08CDD /* main.m */; };
+		49A388B01A1A870300D08CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A388AF1A1A870300D08CDD /* AppDelegate.m */; };
+		49A388B31A1A870300D08CDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A388B21A1A870300D08CDD /* ViewController.m */; };
+		49A388B61A1A870300D08CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A388B41A1A870300D08CDD /* Main.storyboard */; };
+		49A388B81A1A870300D08CDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A388B71A1A870300D08CDD /* Images.xcassets */; };
+		49A388BB1A1A870300D08CDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A388B91A1A870300D08CDD /* LaunchScreen.xib */; };
+		49A388C71A1A870300D08CDD /* VuMatchSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A388C61A1A870300D08CDD /* VuMatchSDKSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A388C11A1A870300D08CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A3889F1A1A870300D08CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A388A61A1A870300D08CDD;
+			remoteInfo = VuMatchSDKSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49472D5A1A2586EA00B1C276 /* autoscaling-2011-01-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "autoscaling-2011-01-01.json"; sourceTree = "<group>"; };
+		49472D5B1A2586EA00B1C276 /* AWSiOSSDKv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDKv2.framework; sourceTree = "<group>"; };
+		49472D5C1A2586EA00B1C276 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		49472D5D1A2586EA00B1C276 /* cib-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cib-2014-06-30.json"; sourceTree = "<group>"; };
+		49472D5E1A2586EA00B1C276 /* css-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "css-2014-06-30.json"; sourceTree = "<group>"; };
+		49472D5F1A2586EA00B1C276 /* dynamodb-2012-08-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dynamodb-2012-08-10.json"; sourceTree = "<group>"; };
+		49472D601A2586EA00B1C276 /* ec2-2014-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ec2-2014-06-15.json"; sourceTree = "<group>"; };
+		49472D611A2586EA00B1C276 /* elasticloadbalancing-2012-06-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "elasticloadbalancing-2012-06-01.json"; sourceTree = "<group>"; };
+		49472D621A2586EA00B1C276 /* email-2010-12-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "email-2010-12-01.json"; sourceTree = "<group>"; };
+		49472D631A2586EA00B1C276 /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GZIP.framework; sourceTree = "<group>"; };
+		49472D641A2586EA00B1C276 /* kinesis-2013-12-02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "kinesis-2013-12-02.json"; sourceTree = "<group>"; };
+		49472D651A2586EA00B1C276 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = "<group>"; };
+		49472D661A2586EA00B1C276 /* mobileanalytics-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mobileanalytics-2014-06-30.json"; sourceTree = "<group>"; };
+		49472D671A2586EA00B1C276 /* monitoring-2010-08-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "monitoring-2010-08-01.json"; sourceTree = "<group>"; };
+		49472D681A2586EA00B1C276 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reachability.framework; sourceTree = "<group>"; };
+		49472D691A2586EA00B1C276 /* s3-2006-03-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "s3-2006-03-01.json"; sourceTree = "<group>"; };
+		49472D6A1A2586EA00B1C276 /* sdb-2009-04-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sdb-2009-04-15.json"; sourceTree = "<group>"; };
+		49472D6B1A2586EA00B1C276 /* sns-2010-03-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sns-2010-03-31.json"; sourceTree = "<group>"; };
+		49472D6C1A2586EA00B1C276 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sqs-2012-11-05.json"; sourceTree = "<group>"; };
+		49472D6D1A2586EA00B1C276 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sts-2011-06-15.json"; sourceTree = "<group>"; };
+		49472D6E1A2586EA00B1C276 /* TMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMCache.framework; sourceTree = "<group>"; };
+		49472D6F1A2586EA00B1C276 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UICKeyChainStore.framework; sourceTree = "<group>"; };
+		49472D701A2586EA00B1C276 /* XMLDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLDictionary.framework; sourceTree = "<group>"; };
+		49472D711A2586EA00B1C276 /* VuMatchAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VuMatchAPIClient.h; sourceTree = "<group>"; };
+		49472D721A2586EA00B1C276 /* VuMatchAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VuMatchAPIClient.m; sourceTree = "<group>"; };
+		49472D731A2586EA00B1C276 /* VuMatchRecommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VuMatchRecommendation.h; sourceTree = "<group>"; };
+		49472D741A2586EA00B1C276 /* VuMatchRecommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VuMatchRecommendation.m; sourceTree = "<group>"; };
+		49472D751A2586EA00B1C276 /* VuMatchSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VuMatchSDK.h; sourceTree = "<group>"; };
+		499FDAE61A239DCC008F3AA9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		49A388A71A1A870300D08CDD /* VuMatchSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuMatchSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A388AB1A1A870300D08CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A388AC1A1A870300D08CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A388AE1A1A870300D08CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A388AF1A1A870300D08CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A388B11A1A870300D08CDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49A388B21A1A870300D08CDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49A388B51A1A870300D08CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A388B71A1A870300D08CDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49A388BA1A1A870300D08CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49A388C01A1A870300D08CDD /* VuMatchSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuMatchSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A388C51A1A870300D08CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A388C61A1A870300D08CDD /* VuMatchSDKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VuMatchSDKSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A388A41A1A870300D08CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499FDAE71A239DCC008F3AA9 /* libz.dylib in Frameworks */,
+				49472D8A1A2586EA00B1C276 /* TMCache.framework in Frameworks */,
+				49472D8B1A2586EA00B1C276 /* UICKeyChainStore.framework in Frameworks */,
+				49472D7F1A2586EA00B1C276 /* GZIP.framework in Frameworks */,
+				49472D771A2586EA00B1C276 /* AWSiOSSDKv2.framework in Frameworks */,
+				49472D8C1A2586EA00B1C276 /* XMLDictionary.framework in Frameworks */,
+				49472D781A2586EA00B1C276 /* Bolts.framework in Frameworks */,
+				49472D811A2586EA00B1C276 /* Mantle.framework in Frameworks */,
+				49472D841A2586EA00B1C276 /* Reachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A388BD1A1A870300D08CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49472D581A2586EA00B1C276 /* VuMatchSDK */ = {
+			isa = PBXGroup;
+			children = (
+				49472D591A2586EA00B1C276 /* AWS */,
+				49472D711A2586EA00B1C276 /* VuMatchAPIClient.h */,
+				49472D721A2586EA00B1C276 /* VuMatchAPIClient.m */,
+				49472D731A2586EA00B1C276 /* VuMatchRecommendation.h */,
+				49472D741A2586EA00B1C276 /* VuMatchRecommendation.m */,
+				49472D751A2586EA00B1C276 /* VuMatchSDK.h */,
+			);
+			path = VuMatchSDK;
+			sourceTree = "<group>";
+		};
+		49472D591A2586EA00B1C276 /* AWS */ = {
+			isa = PBXGroup;
+			children = (
+				49472D5A1A2586EA00B1C276 /* autoscaling-2011-01-01.json */,
+				49472D5B1A2586EA00B1C276 /* AWSiOSSDKv2.framework */,
+				49472D5C1A2586EA00B1C276 /* Bolts.framework */,
+				49472D5D1A2586EA00B1C276 /* cib-2014-06-30.json */,
+				49472D5E1A2586EA00B1C276 /* css-2014-06-30.json */,
+				49472D5F1A2586EA00B1C276 /* dynamodb-2012-08-10.json */,
+				49472D601A2586EA00B1C276 /* ec2-2014-06-15.json */,
+				49472D611A2586EA00B1C276 /* elasticloadbalancing-2012-06-01.json */,
+				49472D621A2586EA00B1C276 /* email-2010-12-01.json */,
+				49472D631A2586EA00B1C276 /* GZIP.framework */,
+				49472D641A2586EA00B1C276 /* kinesis-2013-12-02.json */,
+				49472D651A2586EA00B1C276 /* Mantle.framework */,
+				49472D661A2586EA00B1C276 /* mobileanalytics-2014-06-30.json */,
+				49472D671A2586EA00B1C276 /* monitoring-2010-08-01.json */,
+				49472D681A2586EA00B1C276 /* Reachability.framework */,
+				49472D691A2586EA00B1C276 /* s3-2006-03-01.json */,
+				49472D6A1A2586EA00B1C276 /* sdb-2009-04-15.json */,
+				49472D6B1A2586EA00B1C276 /* sns-2010-03-31.json */,
+				49472D6C1A2586EA00B1C276 /* sqs-2012-11-05.json */,
+				49472D6D1A2586EA00B1C276 /* sts-2011-06-15.json */,
+				49472D6E1A2586EA00B1C276 /* TMCache.framework */,
+				49472D6F1A2586EA00B1C276 /* UICKeyChainStore.framework */,
+				49472D701A2586EA00B1C276 /* XMLDictionary.framework */,
+			);
+			path = AWS;
+			sourceTree = "<group>";
+		};
+		49A3889E1A1A870300D08CDD = {
+			isa = PBXGroup;
+			children = (
+				499FDAE61A239DCC008F3AA9 /* libz.dylib */,
+				49472D581A2586EA00B1C276 /* VuMatchSDK */,
+				49A388A91A1A870300D08CDD /* VuMatchSDKSample */,
+				49A388C31A1A870300D08CDD /* VuMatchSDKSampleTests */,
+				49A388A81A1A870300D08CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A388A81A1A870300D08CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A388A71A1A870300D08CDD /* VuMatchSDKSample.app */,
+				49A388C01A1A870300D08CDD /* VuMatchSDKSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A388A91A1A870300D08CDD /* VuMatchSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				49A388AE1A1A870300D08CDD /* AppDelegate.h */,
+				49A388AF1A1A870300D08CDD /* AppDelegate.m */,
+				49A388B11A1A870300D08CDD /* ViewController.h */,
+				49A388B21A1A870300D08CDD /* ViewController.m */,
+				49A388B41A1A870300D08CDD /* Main.storyboard */,
+				49A388B71A1A870300D08CDD /* Images.xcassets */,
+				49A388B91A1A870300D08CDD /* LaunchScreen.xib */,
+				49A388AA1A1A870300D08CDD /* Supporting Files */,
+			);
+			path = VuMatchSDKSample;
+			sourceTree = "<group>";
+		};
+		49A388AA1A1A870300D08CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A388AB1A1A870300D08CDD /* Info.plist */,
+				49A388AC1A1A870300D08CDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A388C31A1A870300D08CDD /* VuMatchSDKSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A388C61A1A870300D08CDD /* VuMatchSDKSampleTests.m */,
+				49A388C41A1A870300D08CDD /* Supporting Files */,
+			);
+			path = VuMatchSDKSampleTests;
+			sourceTree = "<group>";
+		};
+		49A388C41A1A870300D08CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A388C51A1A870300D08CDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A388A61A1A870300D08CDD /* VuMatchSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A388CA1A1A870300D08CDD /* Build configuration list for PBXNativeTarget "VuMatchSDKSample" */;
+			buildPhases = (
+				49A388A31A1A870300D08CDD /* Sources */,
+				49A388A41A1A870300D08CDD /* Frameworks */,
+				49A388A51A1A870300D08CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VuMatchSDKSample;
+			productName = VuMatchSDKSample;
+			productReference = 49A388A71A1A870300D08CDD /* VuMatchSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A388BF1A1A870300D08CDD /* VuMatchSDKSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A388CD1A1A870400D08CDD /* Build configuration list for PBXNativeTarget "VuMatchSDKSampleTests" */;
+			buildPhases = (
+				49A388BC1A1A870300D08CDD /* Sources */,
+				49A388BD1A1A870300D08CDD /* Frameworks */,
+				49A388BE1A1A870300D08CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A388C21A1A870300D08CDD /* PBXTargetDependency */,
+			);
+			name = VuMatchSDKSampleTests;
+			productName = VuMatchSDKSampleTests;
+			productReference = 49A388C01A1A870300D08CDD /* VuMatchSDKSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A3889F1A1A870300D08CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Vufind Inc.";
+				TargetAttributes = {
+					49A388A61A1A870300D08CDD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					49A388BF1A1A870300D08CDD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 49A388A61A1A870300D08CDD;
+					};
+				};
+			};
+			buildConfigurationList = 49A388A21A1A870300D08CDD /* Build configuration list for PBXProject "VuMatchSDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A3889E1A1A870300D08CDD;
+			productRefGroup = 49A388A81A1A870300D08CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A388A61A1A870300D08CDD /* VuMatchSDKSample */,
+				49A388BF1A1A870300D08CDD /* VuMatchSDKSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A388A51A1A870300D08CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49472D871A2586EA00B1C276 /* sns-2010-03-31.json in Resources */,
+				49472D791A2586EA00B1C276 /* cib-2014-06-30.json in Resources */,
+				49472D7D1A2586EA00B1C276 /* elasticloadbalancing-2012-06-01.json in Resources */,
+				49472D821A2586EA00B1C276 /* mobileanalytics-2014-06-30.json in Resources */,
+				49A388B61A1A870300D08CDD /* Main.storyboard in Resources */,
+				49472D7E1A2586EA00B1C276 /* email-2010-12-01.json in Resources */,
+				49472D891A2586EA00B1C276 /* sts-2011-06-15.json in Resources */,
+				49472D801A2586EA00B1C276 /* kinesis-2013-12-02.json in Resources */,
+				49472D881A2586EA00B1C276 /* sqs-2012-11-05.json in Resources */,
+				49A388BB1A1A870300D08CDD /* LaunchScreen.xib in Resources */,
+				49472D851A2586EA00B1C276 /* s3-2006-03-01.json in Resources */,
+				49472D761A2586EA00B1C276 /* autoscaling-2011-01-01.json in Resources */,
+				49472D861A2586EA00B1C276 /* sdb-2009-04-15.json in Resources */,
+				49A388B81A1A870300D08CDD /* Images.xcassets in Resources */,
+				49472D7A1A2586EA00B1C276 /* css-2014-06-30.json in Resources */,
+				49472D7B1A2586EA00B1C276 /* dynamodb-2012-08-10.json in Resources */,
+				49472D831A2586EA00B1C276 /* monitoring-2010-08-01.json in Resources */,
+				49472D7C1A2586EA00B1C276 /* ec2-2014-06-15.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A388BE1A1A870300D08CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A388A31A1A870300D08CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49472D8E1A2586EA00B1C276 /* VuMatchRecommendation.m in Sources */,
+				49A388B31A1A870300D08CDD /* ViewController.m in Sources */,
+				49A388B01A1A870300D08CDD /* AppDelegate.m in Sources */,
+				49472D8D1A2586EA00B1C276 /* VuMatchAPIClient.m in Sources */,
+				49A388AD1A1A870300D08CDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A388BC1A1A870300D08CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A388C71A1A870300D08CDD /* VuMatchSDKSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A388C21A1A870300D08CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A388A61A1A870300D08CDD /* VuMatchSDKSample */;
+			targetProxy = 49A388C11A1A870300D08CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A388B41A1A870300D08CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A388B51A1A870300D08CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A388B91A1A870300D08CDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A388BA1A1A870300D08CDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A388C81A1A870300D08CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A388C91A1A870300D08CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A388CB1A1A870300D08CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VuMatchSDK",
+					"$(PROJECT_DIR)/VuMatchSDK/AWS",
+				);
+				INFOPLIST_FILE = VuMatchSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49A388CC1A1A870300D08CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VuMatchSDK",
+					"$(PROJECT_DIR)/VuMatchSDK/AWS",
+				);
+				INFOPLIST_FILE = VuMatchSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49A388CE1A1A870400D08CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VuMatchSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VuMatchSDKSample.app/VuMatchSDKSample";
+			};
+			name = Debug;
+		};
+		49A388CF1A1A870400D08CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VuMatchSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VuMatchSDKSample.app/VuMatchSDKSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A388A21A1A870300D08CDD /* Build configuration list for PBXProject "VuMatchSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A388C81A1A870300D08CDD /* Debug */,
+				49A388C91A1A870300D08CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A388CA1A1A870300D08CDD /* Build configuration list for PBXNativeTarget "VuMatchSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A388CB1A1A870300D08CDD /* Debug */,
+				49A388CC1A1A870300D08CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A388CD1A1A870400D08CDD /* Build configuration list for PBXNativeTarget "VuMatchSDKSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A388CE1A1A870400D08CDD /* Debug */,
+				49A388CF1A1A870400D08CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A3889F1A1A870300D08CDD /* Project object */;
+}
