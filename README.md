@@ -19,20 +19,20 @@ Follow the following steps to use VuMatch iOS SDK with any Android project.
 
 *    Import VuMatchSDK.h. It's your entry point to use VuMatch iOS SDK
 
-```c++ 
+```objective-c
 #import "VuMatchSDK.h"
 ```
 
 *    Create a VuMatch API client to start calling VuMatch API.
 
-```c++
+```objective-c
 VuMatchAPIClient *vuMatchAPIClient = [[VuMatchAPIClient alloc] initWithCustomerId:CUSTOMER_ID andAppKey:APP_KEY andAppToken:APP_TOKEN];
 ```
 This line initialize VuMatch API client with: your customer id, application key and application token.
 
 *    Now you can post an image to VuMatch API by calling method postImage.
 
-```c++
+```objective-c
 [vuMatchAPIClient postImage:image inCategory:CATEGORY_NAME withDelegate:delegate];
 ```
 
@@ -44,7 +44,7 @@ In case of success you will get an array of VuMatch recommendations through the 
 
 In case of unexpected error occurred the didFinishWithError will be called with an object describes the error.
 
-```c++
+```objective-c
 #pragma mark - VuMatch API Delegate
 
 -(void)vuMatchAPIClient:(VuMatchAPIClient *)apiClient didFinishWithRecommendations:(NSArray *)recommendations {
@@ -67,7 +67,7 @@ You can download [sample project](https://github.com/moataz/VuMatchIOS_sdk/VuMat
 
 *    Open ViewController.m and replace the four #define constants (CUSTOMER_ID, APP_KEY, APP_TOKEN, CATEGORY) with your values.
 
-```c++
+```objective-c
 // replace the following 4 constants with your correct values
 #define CUSTOMER_ID @""
 #define APP_KEY @""
@@ -81,7 +81,7 @@ You can download [sample project](https://github.com/moataz/VuMatchIOS_sdk/VuMat
 
 *    Tap "Pick an Image" button to select an image.
 
-```c++
+```objective-c
 - (void)pickImage:(id)sender
 {
     
@@ -97,7 +97,7 @@ You can download [sample project](https://github.com/moataz/VuMatchIOS_sdk/VuMat
 
 *    After you select the image the sample will post it to VuMatch API and show the list of recommendations.
 
-```c++
+```objective-c
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     [picker  dismissViewControllerAnimated:YES completion:nil];
     UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
@@ -128,4 +128,4 @@ You can download [sample project](https://github.com/moataz/VuMatchIOS_sdk/VuMat
 #pragma end
 ```
 
-~[VuMatch sample app](./docs/images/screen3.png)
+![VuMatch sample app](./docs/images/screen3.png)
